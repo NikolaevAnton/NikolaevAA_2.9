@@ -20,7 +20,7 @@
                                 <rect key="frame" x="100" y="781" width="214" height="31"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain" title="Run">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
@@ -28,6 +28,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4Q-LZ-xHv"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRW-DY-nYb" customClass="SpringView" customModule="Spring">
                                 <rect key="frame" x="70" y="84" width="274" height="150"/>
@@ -93,6 +96,7 @@
                         <outlet property="delayLabel" destination="dQm-zO-fEf" id="EhV-UC-XZp"/>
                         <outlet property="durationLabel" destination="MO3-F1-9SQ" id="UbU-AL-BR9"/>
                         <outlet property="forceLabel" destination="nn3-cl-yi5" id="7la-dO-ynl"/>
+                        <outlet property="playButton" destination="wDN-1J-WlO" id="Abm-DH-ncR"/>
                         <outlet property="playView" destination="iRW-DY-nYb" id="FJi-3h-lNn"/>
                         <outlet property="presetLabel" destination="8L5-5y-pte" id="f1K-P7-gu9"/>
                     </connections>
